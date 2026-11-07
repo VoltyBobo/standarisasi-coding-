@@ -21,3 +21,8 @@ npm run test:coverage
 npm run lint
 npm run format:check
 ```
+## Author
+
+Nama: Sadida Naja Fadlih
+
+NIM: [E41250673]
