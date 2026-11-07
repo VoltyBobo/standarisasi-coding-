@@ -27,7 +27,9 @@ describe('ShoppingCart', () => {
     });
 
     test('should throw error when price is negative', () => {
-      expect(() => cart.addItem({ name: 'X', price: -1 })).toThrow('Price cannot be negative');
+      expect(() => cart.addItem({ name: 'X', price: -1 })).toThrow(
+        'Price cannot be negative'
+      );
     });
   });
 

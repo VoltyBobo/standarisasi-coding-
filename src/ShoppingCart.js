@@ -27,7 +27,10 @@ class ShoppingCart {
   }
 
   calculateSubtotal() {
-    return this.items.reduce((sum, item) => sum + item.price * item.quantity, 0);
+    return this.items.reduce(
+      (sum, item) => sum + item.price * item.quantity,
+      0
+    );
   }
 
   calculateTotal(discountRate = 0, taxRate = 0) {
